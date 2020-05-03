@@ -1,7 +1,11 @@
+    /*First mobile*/
+
 body {
     background-image: url(./images/bg-body.png);
     font-family: Verdana, sans-serif;
 }
+    /*header*/
+
 .main-header{
     width: 100%;
     position: relative;
@@ -20,7 +24,6 @@ body {
     border:1px dotted #000; 
     padding-bottom: 10px;
     padding-top: 5px;
-    font-weight: 10;
 }
 .toggle-nav {
     position: relative;
@@ -50,4 +53,65 @@ body {
     font-size: 60%;
 }
 
+    /*Articulos*/
 
+.product {
+    margin-bottom: 6vw;
+}
+.photo {
+    position: relative;
+    width: 100%;
+}
+.special {
+    position: absolute;
+    width: 17%;
+    margin-left: -18%;
+    margin-top: 0vw;
+}
+.zoom {
+    text-align: center;
+    background-color: black; 
+    display: block;
+    position: relative;
+    bottom: 30vw;
+    opacity: 0.5;
+    color: white;
+    text-decoration: none;
+}
+.more {
+    background-color: #494949;
+    text-decoration: none;
+    color: white;
+    font-size: 70%;
+    margin-left: 3vw;
+    padding: 2vw;
+}
+h2 {
+    margin-left: 4vw;
+    margin-top: -1vw;
+}
+p {
+    margin-left: 2vw;
+    margin-bottom: 5vw;
+}
+
+    /* Footer */
+
+.main-footer ul {
+    display: block;
+    list-style: none;
+    position: relative;
+    margin-right: 4%;
+    margin-top: 6vw;
+}
+.main-footer li{
+    background-color: red;
+    position: block;
+    border-bottom: 1px solid white;
+}
+.main-footer li a{
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-size: 60%;
+}
