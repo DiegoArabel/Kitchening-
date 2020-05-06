@@ -119,13 +119,20 @@ p {
 }
 
     /* Tablet */
-@media (min-width: 426px) {      
+@media (min-width: 426px) { 
+    .main-header img {
+        border-radius: 215px;
+        width: 15vw;
+        margin-left: 42.5vw;
+        margin-right: 42.5vw;
+    }     
     .toggle-nav{
         display: none;
     }
     .main-nav {
-        margin-left: -5vw;
-        margin-right: 0vw;
+        margin-left: 0vw;
+        margin-right: 4vw;
+        margin-top: 0vw;
     }
     .main-nav ul {
         display: flex;
@@ -136,6 +143,7 @@ p {
         font-size: 12px;
         padding: 5px;
         width: 100%;
+        margin-left: 2vw;
     }
     .banner img {
       display: block;
@@ -163,6 +171,12 @@ p {
         /*Desktop*/
 
 @media (min-width: 769px) {  
+    .main-header img {
+        border-radius: 215px;
+        width: 15vw;
+        margin-left: 42.5vw;
+        margin-right: 42.5vw;
+    }
     .main-nav {
       margin-top: 0px;
       margin-bottom: 20px;
