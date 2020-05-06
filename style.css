@@ -27,12 +27,12 @@ body {
 }
 .toggle-nav {
     position: relative;
-    margin-left: 48vw;
+    margin-left: 45vw;
     top: 30px;
     color: black;
 }
 .main-nav {
-    margin-top: 10%;
+    margin-top: 15%;
 }
 .main-nav ul {
     display: block;
@@ -40,6 +40,7 @@ body {
     position: relative;
     margin-right: 4%;
     margin-top: 6vw;
+    padding-left: 5vw;
 }
 .main-nav li {
     background-color: #494949;
@@ -103,9 +104,10 @@ p {
     position: relative;
     margin-right: 4%;
     margin-top: 6vw;
+    padding-left: 5vw;
 }
 .main-footer li{
-    background-color: red;
+    background-color: #b92519;
     position: block;
     border-bottom: 1px solid white;
 }
@@ -115,3 +117,107 @@ p {
     color: white;
     font-size: 60%;
 }
+
+    /* Tablet */
+@media (min-width: 426px) {      
+    .toggle-nav{
+        display: none;
+    }
+    .main-nav {
+        margin-left: -5vw;
+        margin-right: 0vw;
+    }
+    .main-nav ul {
+        display: flex;
+        justify-content: space-between;
+        margin: 1vw;
+    }
+    .main-nav li {
+        font-size: 12px;
+        padding: 5px;
+        width: 100%;
+    }
+    .banner img {
+      display: block;
+      position: relative;
+      padding-bottom: 10px;
+      width: 100%;
+    }
+    .vip-products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .product {
+      width: 48vw;
+    }
+    .special {
+        width: 10vw;
+        margin-left: -12vw;
+    }
+    .zoom {
+        bottom: 14vw;
+    }
+  }
+  
+        /*Desktop*/
+
+@media (min-width: 769px) {  
+    .main-nav {
+      margin-top: 0px;
+      margin-bottom: 20px;
+      padding-left: 5vw;
+      padding-right: 5vw;
+    }
+    .main-nav ul {
+      height: 50px;
+    }
+    .main-nav li {
+      justify-content: center;
+      align-items: center;
+      font-size: 25px;
+      margin-left: 1vw;
+    }
+    .vip-products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-left: 6vw;
+      margin-right: 6vw;
+    }
+    .product {
+      max-width: 270px;
+      margin: 20px 0;
+    }
+    .special {
+        width: 6vw;
+        margin-left: -7vw;
+    }
+    .zoom {
+        bottom: 8vw;
+    }
+    .more{
+        padding: 1vw;
+    }
+    .main-footer ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #b92519;
+      border-top-left-radius: 50px 50px;
+      border-top-right-radius: 50px 50px;
+      height: 120px;
+    }
+  
+    .main-footer li {
+      color: white;
+      border: none;
+      font-size: 2vw;
+    }
+  
+    .main-footer li + li:before {
+      content: " | ";
+      padding: 0 5px;
+      font-weight: bold;
+    }
+  }
